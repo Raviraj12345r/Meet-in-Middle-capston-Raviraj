@@ -1,0 +1,27 @@
+
+
+.flex-container-21{
+    display: flex;
+    flex-wrap: nowrap;
+    /* border: 2px solid green; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-container-21 > div{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 15px;
+}
+
+.prev{
+    text-align: center;
+    width:100px;
+    font-size: 18px;
+}
+
+.next{
+    text-align: center;
+    width:100px;
+    font-size: 18px;
+}
